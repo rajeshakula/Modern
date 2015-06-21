@@ -22,7 +22,13 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-
+/*
+ * @author RajeshAkula
+ * This is the test class for Price Quantity,While changing the quantity of the product 
+ * total amount should be reflected accordingly
+ * Ex : Price for 1 = £500,
+ * Ex : Price for 2 = £1000...etc 
+ */
 public class PriceQuantityTest {
 	WebDriver driver;
 	WebDriverWait wait;

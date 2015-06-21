@@ -20,6 +20,9 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 /**
  * EmailSignUp TestCasess with Valid and Invalid data
+ * If a customer give a valid Email should see "Email address subscribed" on the webPage
+ * If a customer give a Invalid Email should see "Email address exists" on the webPage
+ * @author RajeshAkula
  */
 public class EmailSignUpTest {
 

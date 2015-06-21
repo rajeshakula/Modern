@@ -20,7 +20,11 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-
+/*
+ * @author RajeshAkula
+ * This class describes changing the product sort order by price Low to High
+ * Customer can able to see products from low price to high price on first 40 products   
+ */
 public class ProductCatlogOrder {
 
 	WebDriver driver;
